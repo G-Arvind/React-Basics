@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello';
 import HelloClass from './components/HelloClass';
+import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Hello name="arvind" lastname="g">
+      {/* <Hello name="arvind" lastname="g">
         <p>hi there</p>
       </Hello>
       <Hello name="g" lastname="g">
@@ -15,7 +17,10 @@ function App() {
       </Hello>
       <HelloClass name="arvind" lastname="g">
       <p>hi there</p>
-      </HelloClass>
+      </HelloClass> */}
+    {/* <Message>
+    </Message> */}
+    <Counter></Counter>
     </div>
   );
 }
