@@ -1,17 +1,11 @@
 import React from 'react';
 
-// function Hello(props){
-//     return(
-//         <div className="hello">
-//             <h1>hi {props.name}</h1>
-//         </div>
-//     );
-// }
 
 const Hello = props => {
+    const {name, lastname} = props;
     return(
     <div className="hello">
-        <h1>hi {props.name} {props.lastname}</h1>
+        <h1>hi {name} {lastname}</h1>
         {props.children}
     </div>
     );
