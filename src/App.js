@@ -5,6 +5,7 @@ import Hello from './components/Hello';
 import HelloClass from './components/HelloClass';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       </HelloClass> */}
     {/* <Message>
     </Message> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+    <EventBind></EventBind>
     </div>
   );
 }
