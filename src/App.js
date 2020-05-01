@@ -7,6 +7,8 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import Greeting from './components/Greeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
     </Message> */}
     {/* <Counter></Counter> */}
     {/* <EventBind></EventBind> */}
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
+    {/* <Greeting/> */}
+    <NameList/>
     </div>
   );
 }
