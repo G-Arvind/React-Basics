@@ -9,6 +9,8 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import Greeting from './components/Greeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/Stylesheet';
+import InlineStyle from './components/InlineStyle';
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
     {/* <EventBind></EventBind> */}
     {/* <ParentComponent/> */}
     {/* <Greeting/> */}
-    <NameList/>
+    {/* <NameList/> */}
+    <StyleSheet/>
+    <InlineStyle/>
     </div>
   );
 }
